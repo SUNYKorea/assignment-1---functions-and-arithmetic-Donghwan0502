@@ -1,5 +1,6 @@
 # Name: Donghwan Kim
 # SBUID: 115242500
+# E-mail: donghwan.kim.4@stonybrook.edu
 
 # Remove the ellipses (...) when writing your solutions.
 
