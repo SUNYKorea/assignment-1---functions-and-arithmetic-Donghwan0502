@@ -1,7 +1,6 @@
 # Name: Donghwan Kim
 # SBUID: 115242500
 # E-mail: donghwan.kim.4@stonybrook.edu
-
 # Remove the ellipses (...) when writing your solutions.
 
 # ---------------------------- Exercise I ---------------------------------------
@@ -30,8 +29,8 @@ def what_to_wear(celsius):
 # compute_triangle_perimeter from scratch  
 
 def shoelace_triangle_area(x1, y1, x2, y2, x3, y3):
-    A = abs(((x1*y2 + x2*y3 + x3*y1) - (x1*y3 + x2*y1 + x3*y2))/2)
-    return A
+    Area = abs(((x1*y2 + x2*y3 + x3*y1) - (x1*y3 + x2*y1 + x3*y2))/2)
+    return Area
 
 def euclidean_distance(x1, y1, x2, y2):
     return ((x1 - x2)**2 + (y1 - y2)**2)**(1/2)
@@ -52,12 +51,12 @@ def deg2rad(deg):
     return deg * math.pi/180
 
 def apothem(number_sides, length_side):
-    a = length_side / (2*math.tan(deg2rad(180/number_sides)))
-    return a
+    val_apothem = length_side / (2*math.tan(deg2rad(180/number_sides)))
+    return val_apothem
 
 def polygon_area(number_sides, length_side):
-    A = (number_sides + length_side + apothem(number_sides, length_side)/2)
-    return A
+    Area = (number_sides + length_side + apothem(number_sides, length_side)/2)
+    return Area
 
 
 # ---------------------------- Test -------------------------------------
