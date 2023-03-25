@@ -55,7 +55,7 @@ def apothem(number_sides, length_side):
     return val_apothem
 
 def polygon_area(number_sides, length_side):
-    Area = (number_sides + length_side + apothem(number_sides, length_side)/2)
+    Area = (number_sides * length_side * apothem(number_sides, length_side)/2)
     return Area
 
 
