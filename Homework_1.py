@@ -2,6 +2,9 @@
 # SBUID: 115242500
 # E-mail: donghwan.kim.4@stonybrook.edu
 # Remove the ellipses (...) when writing your solutions.
+##################### SCORE ######################
+####### Very good work Score:  10/10
+#################################################
 
 # ---------------------------- Exercise I ---------------------------------------
 # ----------------- Convert Fahrenheit to Celsius -------------------------------
